@@ -1,0 +1,18 @@
+.blue-bg {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.fancy {
+  font-size: 30px;
+  color: salmon;
+  background-color: aquamarine;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
