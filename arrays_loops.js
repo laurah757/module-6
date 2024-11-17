@@ -1,4 +1,4 @@
-// includes 
+// includes
 
 // let names = ["Anna", "Ben", "Clara"];
 
@@ -10,7 +10,7 @@
 //   console.log(containsElement(names, "Daniel"));
 // }
 
-// indexof 
+// indexof
 
 // let numbers = [10, 20, 30, 40];
 
@@ -20,7 +20,7 @@
 
 // function initArrays() {
 //   console.log(containsElement(numbers, 50));
-  
+
 // }
 
 // shift
@@ -107,7 +107,7 @@
 
 // function initArrays() {
 //   console.log(getSubArray(letters, 0, 3));
-  
+
 // }
 
 // Aufgabenstellung 6: join
@@ -130,7 +130,7 @@
 //   console.log(joinArray(fruits, ", "));
 // }
 
-let numbers = [1, 2, 3, 4];
+/* let numbers = [1, 2, 3, 4];
 
 function joinArray(array, separator) {
   return array.join(separator)
@@ -139,4 +139,55 @@ function joinArray(array, separator) {
 function initArrays() {
   console.log(joinArray(numbers, " - "));
   
+} */
+
+// For Loops
+
+/* let fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+function initArrays() {
+  let contentRef = document.getElementById("my_content");
+  contentRef.innerHTML = "";
+  for (let indexFruits = 0; indexFruits < fruits.length; indexFruits++) {
+    contentRef.innerHTML += fruits[indexFruits] + ", "; 
+  }
 }
+*/
+
+// Aufgabenstellung 1: Summe der Elemente eines Arrays
+// Aufgabe:
+
+// Implementiere eine for-Schleife, um die Summe der Elemente in einem Array zu berechnen 
+// und zurückzugeben.
+
+
+// Test:
+/*
+function sumArray(arr) {
+  
+  let sum = 0;
+
+  for (let index = 0; index < arr.length; index++) {
+    sum += arr[index];
+    
+  }
+  
+  return sum;
+}
+
+//  console.log(sumArray([3, 7, 1, 4])); // Erwartete Ausgabe: 15 (3 + 7 + 1 + 4)
+
+ console.log(sumArray([1, 2, 3, 4, 5])); // Erwartete Ausgabe: 15 (1 + 2 + 3 + 4 + 5)
+
+*/ 
+
+function printNumbers(5) {
+  
+  for (let index = 1; index <= 5; index++) {
+    console.log(index);
+    
+    
+  }
+}
+
+console.log(printNumbers([1, 2, 3, 4, 5]));
